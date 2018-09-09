@@ -6,18 +6,24 @@
 	</title>
 	
 	<style type = "text/css">
-		p {font-family:calibri; font-size:14px; margin-bottom: 0px}
+		p {font-family:calibri; font-size:17px;}
+		h2 {font-family: Times New Roman; margin-bottom: 0px}
 		a {color: #123456;}
 		em {font-style: italic}
-		h3 {font-weight:1000; text-align: center;  margin-bottom: 0px}
+		h3 {font-weight:1000; text-align: left;  margin-bottom: 10px}
 		body {line-height:125%; }
-		.MainHeader {font-size:30px; font-style: italic; font-family:Times New Roman; text-indent: 0px; margin: 0px}
+		.MainHeader {font-size:35px; font-style: italic; font-family:Times New Roman; text-indent: 0px; margin: 0px}
 		.regular {margin: 0px }
-		.tableentry{margin: 0px; text-indent: 20px}
+		.tableentry{margin: 10px; text-indent: 30px; font-size: 15px;}
 		table {border-color: black; border-width: 1px; border-style: solid}
 		a:link {color: blue;text-decoration: none;}
 		a:active {text-decoration: underline; color: orange;}
-		#sub{position:relative; left:20px}
+		#sub{position:relative; left:30px; margin: 5px;}
+		#content {display:flex; width: 175px; cellpadding: 20px;}
+		.content {margin: 10px; font-size: 15px;}
+		.cent{text-align: center}
+		#eplist{  width: 100%; background-color: #f4f6f7} 
+		.dblue{background-color: #dee4e8 }
 	</style>
 	
 </head>
@@ -32,16 +38,15 @@
 	<strong><em> Tsuki ga Kirei </em></strong>(月がきれい,<strong> as the moon, so beautiful.</strong>) is a 2017 Japanese romance anime television series produced by Feel. It aired from April 6, 2017 to June 29, 2017.
 	</p>
 
-	<hr />
 
-	<table cellpadding = "10" >		<!-- Contains table of content -->
+	<table id = "content" >		<!-- Contains table of content -->
 		<tr>
 			<td>
-				<h3>Contents </h3>
+				<h3 class = "cent">Contents </h3>
 
-					<p class = "regular">1<a href = "#plot"> Plot </a></p>
+					<p class = "content">1<a href = "#plot"> Plot </a></p>
 					
-					<p class = "regular">2<a href = "#character"> Characters </a></p>
+					<p class = "content">2<a href = "#character"> Characters </a></p>
 					
 					
 					<p class = "tableentry">	2.1<a href = "#main"> Main </a></p>
@@ -50,9 +55,9 @@
 						
 					<p class = "tableentry">	2.3<a href = "#other"> Others </a></p>
 					
-					<p class = "regular">3<a href = "#prod"> Production and development </a></p>
+					<p class = "content">3<a href = "#prod"> Production and development </a></p>
 					
-					<p class = "regular">4<a href = "#list" >Episode list </a></p>
+					<p class = "content">4<a href = "#list" >Episode list </a></p>
 			</td>
 		</tr>
 	</table>
@@ -170,8 +175,8 @@
 	
 	<a name = "list"></a>
 		
-	<table width = " 100%" cellpadding = "10" border = 1>			<!--Episode List-->
-		<tr>
+	<table  border = 1  cellpadding = 10px id = "eplist">			<!--Episode List-->
+		<tr class = "dblue">
 			<th colspan = "2">
 				<h2>Episode list</h2>
 			</th>
@@ -180,7 +185,7 @@
 			</th>	
 		</tr>
 		<tr>
-			<td>
+			<td> 
 				1
 			</td>
 			<td>
